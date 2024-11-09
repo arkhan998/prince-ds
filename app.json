@@ -20,16 +20,6 @@
       "required": true,
       "value": "public"
        },
-     "HKEY": {
-      "description": "Put your Heroku API key Here",
-      "required": true,
-      "value": ""
-    },
-     "HAPP": {
-      "description": "Put the Heroku app name, same as above entered",
-      "required": true,
-      "value": ""
-       },
     "PREFIX": {
       "description": "Put any one symbol here except @ and + , leave it Blank if you want to use multiple prefix",
       "required": false,
@@ -44,6 +34,16 @@
       "description": "Make true false to ON/OFF antilink",
       "required": false,
       "value": "true"
+       },
+     "HEROKU": {
+      "description": "Put your Heroku account API key Here to control bot by command",
+      "required": true,
+      "value": ""
+    },
+     "HAPP": {
+      "description": "Put the Heroku app name, same as above entered",
+      "required": true,
+      "value": ""
       },
     "AUTOREAD": {
       "description": "Make true to auto check users messages",
@@ -55,6 +55,16 @@
       "required": false,
       "value": "true"
        },
+      "STATUS_REPLY": {
+      "description": "Status reply true false to on off",
+      "required": false,
+      "value": "false"
+      },
+    "STATUS_MESSAGE": {
+      "description": "Status reply message",
+      "required": false,
+      "value": "Your Status has been seen by Prince bot"
+      },
     "BOT_NAME": {
       "description": "Put your BOT a name",
       "required": true,
